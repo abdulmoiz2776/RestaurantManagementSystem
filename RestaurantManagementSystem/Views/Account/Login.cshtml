@@ -1,0 +1,20 @@
+﻿@model RestaurantManagementSystem.ViewModels.LoginVM
+
+<h2>Login</h2>
+
+<form asp-action="Login">
+
+    <input asp-for="Email"
+           class="form-control mb-2"
+           placeholder="Email" />
+
+    <input asp-for="Password"
+           type="password"
+           class="form-control mb-2"
+           placeholder="Password" />
+
+    <button class="btn btn-success">
+        Login
+    </button>
+
+</form>
